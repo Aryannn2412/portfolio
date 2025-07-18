@@ -20,7 +20,7 @@ This is my personal portfolio website showcasing my projects, skills, and resume
 
 ## 🔗 Live Site
 
-[Vercel Live Demo] (https://portfolio-mauve-seven-m0u3cwqnqu.vercel.app)
+[Vercel Live Demo] (https://portfolio-mauve-seven-m0u3cwqnqu.vercel.app) recommended for desktop.
 
 ## 📄 Resume
 
