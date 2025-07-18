@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aryan Jha | Portfolio</title>
+    <link rel="stylesheet" href="./styles/output.css" />
+    <script type="module" src="./scripts/lenis.js"></script>
+    <script type="module" src="./scripts/scroll.js"></script>
+    <script defer src="./scripts/dark-mode.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-black text-white font-sans">
+    <!-- Dark Mode Toggle -->
+    <button id="dark-toggle" class="fixed top-4 right-4 z-50 text-xl">🌙</button>
+
+    <!-- Hero Section -->
+    <section class="py-20 flex flex-col md:flex-row items-center justify-center text-center px-4 md:px-12 gap-12">
+      <img src="./assets/Professional.jpg" alt="Aryan Jha" class="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover shrink-0" />
+      <div class="md:text-left max-w-3xl">
+        <h1 class="text-4xl md:text-6xl font-bold">Aryan Jha</h1>
+        <p class="text-2xl text-neon-blue font-poppins mt-2">Developer</p>
+        
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="parallax bg-cover bg-center py-32 px-6 text-left text-white" style="background-image: url('./assets/Mountain.jpg');">
+      <div class="bg-black bg-opacity-60 p-8 md:max-w-4xl rounded">
+        <h2 class="text-4xl font-bold mb-6">About Me</h2>
+        <p class="text-lg leading-relaxed">I’m Aryan Jha, a passionate developer and AI enthusiast who thrives on solving complex problems with AI and full-stack technologies. Proficient in Python, C++, React, Node.js, Express, MySQL, and PHP, I’ve developed impactful and innovative projects that blend practicality with real-world value. My journey is fueled by a love for adaptive learning and a commitment to creating scalable, user-focused applications. When I’m not coding, you’ll find me exploring new challenges—whether in tech or scaling mountains. Explore my work to see how I’m shaping the future, one project at a time.</p>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 px-4 bg-white dark:bg-black text-black dark:text-white">
+      <h2 class="text-3xl font-bold text-center mb-10">Projects</h2>
+      <div class="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        <div class="border p-4 rounded bg-neutral-100 dark:bg-neutral-800">
+          <h3 class="text-xl font-semibold">ADAS: Animal Detection System</h3>
+          <p class="text-sm mt-2">A real-time animal detection system for Advanced Driver Assistance Systems (ADAS), using live webcam feeds to enhance road safety...</p>
+          <p class="text-xs mt-1">Tech Stack: YOLO, Python, AI/ML, OpenCV, Streamlit</p>
+          <a href="https://github.com/Aryannn2412" target="_blank" class="text-neon-blue text-sm underline mt-2 inline-block">GitHub</a>
+        </div>
+        <div class="border p-4 rounded bg-neutral-100 dark:bg-neutral-800">
+          <h3 class="text-xl font-semibold">CodeFi-GPT</h3>
+          <p class="text-sm mt-2">An intelligent chatbot for code generation and financial predictions using a lightweight LLaMA model...</p>
+          <p class="text-xs mt-1">Tech Stack: LLaMA, Flask, Python, AI/ML</p>
+          <a href="https://github.com/Aryannn2412" target="_blank" class="text-neon-blue text-sm underline mt-2 inline-block">GitHub</a>
+        </div>
+        <div class="border p-4 rounded bg-neutral-100 dark:bg-neutral-800">
+          <h3 class="text-xl font-semibold">Lecture Scheduler</h3>
+          <p class="text-sm mt-2">A web app to schedule and view lectures with a user-friendly UI using Tailwind CSS and Flask...</p>
+          <p class="text-xs mt-1">Tech Stack: HTML, Tailwind CSS, Flask</p>
+          <a href="https://github.com/Aryannn2412" target="_blank" class="text-neon-blue text-sm underline mt-2 inline-block">GitHub</a>
+        </div>
+        <div class="border p-4 rounded bg-neutral-100 dark:bg-neutral-800">
+          <h3 class="text-xl font-semibold">Age and Emotion Detection</h3>
+          <p class="text-sm mt-2">Detects age and emotions in real-time via webcam for smart audience analysis in theaters...</p>
+          <p class="text-xs mt-1">Tech Stack: OpenCV, React.js, Python</p>
+          <a href="https://github.com/Aryannn2412" target="_blank" class="text-neon-blue text-sm underline mt-2 inline-block">GitHub</a>
+        </div>
+        <div class="border p-4 rounded bg-neutral-100 dark:bg-neutral-800">
+          <h3 class="text-xl font-semibold">Student Career Recommender</h3>
+          <p class="text-sm mt-2">AI-powered chatbot for personalized student career path guidance...</p>
+          <p class="text-xs mt-1">Tech Stack: Python, AI/ML</p>
+          <a href="https://github.com/Aryannn2412" target="_blank" class="text-neon-blue text-sm underline mt-2 inline-block">GitHub</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="py-20 px-4 text-center">
+      <h2 class="text-3xl font-bold mb-4">Resume</h2>
+      <p class="mb-4">Download my resume to learn more about my skills and experience.</p>
+      <a href="https://drive.google.com/uc?export=download&id=192GCBwwR-Nm9BEZ5kxGpnxBsP-MP7bJC" class="bg-neon-blue text-black px-6 py-2 rounded font-bold">Download Resume</a>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 px-4 text-center bg-neutral-900 text-white">
+      <h2 class="text-3xl font-bold mb-4">Connect</h2>
+      <p class="mb-4">Connect with me on LinkedIn or check out my projects on GitHub.</p>
+      <div class="flex justify-center gap-6">
+        <a href="https://www.linkedin.com/in/aryan-jha-984762228/" target="_blank" class="underline text-neon-blue">LinkedIn</a>
+        <a href="https://github.com/Aryannn2412" target="_blank" class="underline text-neon-blue">GitHub</a>
+      </div>
+    </section>
+  </body>
+</html>

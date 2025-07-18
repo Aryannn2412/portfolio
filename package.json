@@ -1,0 +1,19 @@
+{
+  "name": "portfolio-static",
+  "version": "1.0.0",
+  "description": "Aryan Jha's static portfolio site",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "build:css": "tailwindcss -i ./styles/tailwind.css -o ./styles/output.css --minify"
+  },
+  "dependencies": {
+    "@studio-freight/lenis": "^1.0.42"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17",
+    "vite": "^5.4.8",
+    "postcss": "^8.4.38",
+    "autoprefixer": "^10.4.19"
+  }
+}
