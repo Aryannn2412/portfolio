@@ -17,17 +17,10 @@ This is my personal portfolio website showcasing my projects, skills, and resume
 - JavaScript
 - Lenis.js for smooth scroll
 - Dark mode toggle
-- Deployed on Vercel
-
-## 📸 Screenshots
-
-| Hero Section | About Me | Projects |
-|--------------|----------|----------|
-| ![Hero](./assets/Professional.jpg) | ![About](./assets/Mountain.jpg) | Check it live |
 
 ## 🔗 Live Site
 
-[Vercel Live Demo](https://your-username.vercel.app)
+[Vercel Live Demo] (https://portfolio-mauve-seven-m0u3cwqnqu.vercel.app)
 
 ## 📄 Resume
 
